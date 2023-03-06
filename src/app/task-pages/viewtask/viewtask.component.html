@@ -1,0 +1,56 @@
+<div class="container mt-5  filterDiv">
+  <img
+    id="filter"
+    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAXVBMVEX///8AAAAhISF/f3/5+flJSUlNTU37+/tGRkZLS0vb29vi4uIsLCypqalERETf39/v7++enp5VVVWXl5d4eHjKysptbW0WFhZcXFxxcXHW1tY+Pj6lpaXp6em+vr6xlauWAAADaklEQVR4nO2dgVYaMRBF07q4aFcLKGhL9f8/03bLegwEyGSTzMucd79g7nmZvADnqHOEEEIIIYQQQgghhBBCCCGEEBLBar0ZvqMzbNarVMGnb63wlCb4rD23gOcUwQftqUU8yAU77ZmFdMYjTAlxoz2ykI1UsBu0RxYySI/p6kV7ZCEv0lLsm8uwFxq6V+2RhbxKBd1We2QhW7Gh22nPLGInF3T9rfbUAm7FW/iP7k577miW8hfNf1pJcZGU4MhCe/YoHpP9/h7UFlK8Sz2iIz3+Libv4AR6iouZfvClMeOS+QR6Fxdzj+gIcIo5EhxBvW6WmfxgU5xXEz4dYvXPrgkfvBTn18QRaCnm28EJsNLIuYMTUA+4zDs4gZNi9h08AFMa2Yr+BJBdzPNUCwORYrkER/Svm/w14aOeYoma8FF+wBWqCR/NFEvVxBF6u7gse8l8olYaJWvCR+m6KVwTPhqKlXbwgEKKVRN0Cj/bVKkJn7op1k5wpGb1l36qhalYGuWfamcUa+2iwg5O1Emxbk34VCmNWk+1MBV2sd5TLUzxFFVqwqfsdaNTEz5FU9SqCZ+Cn/oVa8KnVIqaNXFEmRQRdnCiSGlg7OBEgZ9tYHZwIneKQDt4IHNpABT9CVl3UfupFiZjiogJjuS6bpBqwidTilg14ZPlAfcILOhylAZeTRwxdxd1P9HHMLM0MGvCZ9YDDj/BkfQU4XfwQHJpwBb9CYlfFcN9mrhESortJDgir37cp1qYfikUBH/JBLgRGt5oDyyGhjTEh4Y0xIeGNMSHhjTEh4Y0xIeGNMSHhjTEh4Y0xIeGNMSHhjTEh4Y0xIeGNMSHhjTEh4Y0xIeGNMSHhjTEh4Y0xIeGNMSHhjTEh4Y0xMe+ofQ/tbZn+Gbe0P0yb7gyb+h+mDd09+YNRYptGrqf5g0Fu9iqYfxBbdYwWrFdw9iD2rBh5HXTsmHcQW3aMCrFtg1jdrFxw4iD2rrhdcXmDa/uYvuG1xQNGF45qBYMLyuaMLxYGjYML+2iEcMLB9WK4fkUzRie3UU7hucOqiHDM4qWDMMH1ZRh8LqxZRg6qMYMA4pr7ZFyc7KLv7Unys5RinvteQrgK261xynB1xv1j/YwZXjbH/wGkwmOvO/2w3733tafuRbSd6b1CCGEEEIIIaQZPgBWdUCum9lCzwAAAABJRU5ErkJggg=="
+    alt=""
+    title="Apply Filters" 
+  />
+</div>
+<div class="container mt-3" *ngFor="let item of tasks">
+  <div class="box">
+    
+    <div class="column">
+      <div class="title">
+        <h3 >Title :</h3>
+        <p for="">{{item.title}}</p>
+      </div>
+      <div class="title">
+        <label for="">Description:</label>
+        <label for="">{{item.description}}</label>
+      </div>
+      <div class="title">
+        <label for="">Completion Status:</label>
+        <label for="">{{item.isCompleted}}</label>
+      </div>
+    </div>
+    <div class="column">
+      <div>
+        <label for="">Date Added</label>
+        <label for="">{{item.dateAdded}}</label>
+      </div>
+      <div>
+        <label for="">Due Date</label>
+        <label for="">{{item.deadline}}</label>
+      </div>
+      <div>
+        <label for="">Priority</label>
+        <label for="">{{item.priority}}</label>
+      </div>
+    </div>
+    <div class="icons">
+      <img
+        id="edit"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQinEpxqe4nq6S2ok2YCcr3XEm4TflW-aJsYw&usqp=CAU"
+        alt=""
+        
+      />
+      <img
+        id="delete"
+        src="https://cdn-icons-png.flaticon.com/512/1214/1214428.png"
+        alt=""
+      
+      />
+    </div>
+  </div>
+</div>
+
