@@ -10,7 +10,7 @@ export class ToastmessageComponent {
   message=""
   set(){
     this.enable=true
-    this.message=""
+    this.message="hello how are you!"
     setTimeout(()=>{
       this.enable=false
       this.message=""

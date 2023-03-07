@@ -4,7 +4,11 @@ import { AddTaskComponent } from './add-task/add-task.component';
 
 import { ViewtaskComponent } from './viewtask/viewtask.component';
 import { CommonPartsModule } from "../common-parts/common-parts.module";
+import { MatSlideToggleModule } from '@angular/material/slide-toggle'
 
+
+
+import { MatChipsModule } from '@angular/material/chips';
 
 
 @NgModule({
@@ -14,11 +18,14 @@ import { CommonPartsModule } from "../common-parts/common-parts.module";
     ],
     exports: [
         AddTaskComponent,
-        ViewtaskComponent
+        ViewtaskComponent,
+        
     ],
     imports: [
         CommonModule,
-        CommonPartsModule
+        CommonPartsModule,
+        MatSlideToggleModule,
+        MatChipsModule
     ]
 })
 export class TaskPagesModule { }

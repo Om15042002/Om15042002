@@ -6,9 +6,11 @@
       type="button"
       class="btn-close"
       aria-label="Close"
-      (click)="modal.dismiss('Cross click') "
+      (click)="modal.dismiss('Cross click'); "
     ></button>
-    <app-toastmessage></app-toastmessage>
+    <ng-template >
+      <app-toastmessage></app-toastmessage>
+    </ng-template>
   </div>
   <div class="modal-body">
     <div>

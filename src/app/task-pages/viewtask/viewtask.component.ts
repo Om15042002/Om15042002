@@ -1,4 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+// import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { NgbDateStruct, NgbCalendar, NgbDatepickerModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms';
+import { JsonPipe } from '@angular/common';
+
 
 @Component({
   selector: 'app-viewtask',
@@ -6,66 +12,64 @@ import { Component } from '@angular/core';
   styleUrls: ['./viewtask.component.css']
 })
 export class ViewtaskComponent {
-  tasks=[{
-    title:"make a note dfgfdgdfgfg fgfgfgffgfgfgfg",
-    description:"asdfadsf",
-    deadline:"sdfdas",
-    dateAdded:"dasfdasf",
-    priority:true,
-    isCompleted:false
+  tasks = [{
+    id: 1,
+    title: "make a note dfgfdgdfgfg fgfgfgffgfgfgfg",
+    description: "asdfadsf",
+    deadline: "sdfdas",
+    dateAdded: "dasfdasf",
+    priority: true,
+    isCompleted: false
   },
   {
-    title:"go to bank",
-    description:"",
-    dateAdded:"",
-    deadline:"",
-    priority:true,
-    isCompleted:false
+    id: 2,
+    title: "go to bank",
+    description: "",
+    dateAdded: "",
+    deadline: "",
+    priority: true,
+    isCompleted: false
   },
   {
-    title:"meeting with team",
-    description:"",
-    deadline:"",
-    dateAdded:"",
-    priority:true,
-    isCompleted:false
+    id: 3,
+    title: "meeting with team",
+    description: "",
+    deadline: "",
+    dateAdded: "",
+    priority: true,
+    isCompleted: false
   },
   {
-    title:"complete a front end",
-    description:"",
-    dateAdded:"",
-    deadline:"",
-    priority:true,
-    isCompleted:false
+    id: 4,
+    title: "complete a front end",
+    description: "",
+    dateAdded: "",
+    deadline: "",
+    priority: true,
+    isCompleted: false
   },
-]
-//  notify(type: string,message: string){
-//   (()=>{
-//     let n = document.createElement("div");
-//     let id = Math.random().toString(36).substr(2,10);
-//     n.setAttribute("id",id);
-//     n.classList.add("notification",type);
-//     n.innerText = message;
-//     document.getElementById("notification-area").appendChild(n);
-//     setTimeout(()=>{
-//       var notifications = document.getElementById("notification-area").getElementsByClassName("notification");
-//       for(let i=0;i<notifications.length;i++){
-//         if(notifications[i].getAttribute("id") == id){
-//           notifications[i].remove();
-//           break;
-//         }
-//       }
-//     },5000);
-//   })();
-// }
+  ]
+  closeResult: string | undefined;
+  model: NgbDateStruct | undefined;
+  // date: { year: number; month: number; } | undefined;
 
-// notifySuccess(){
-//   this.notify("success","This is demo success notification message");
-// }
-//  notifyError(){
-//   this.notify("error","This is demo error notification message");
-// }
-//  notifyInfo(){
-//   this.notify("info","This is demo info notification message");
-// }
+  // constructor(private calendar: NgbCalendar) {}
+  constructor(private modalService: NgbModal) { }
+  // selectToday() {
+  // 	this.model = this.calendar.getToday();
+  // }
+  openVerticallyCentered(content: any) {
+    this.modalService.open(content, { centered: true });
+  }
+  deleteTask(taskId: number) {
+    this.tasks = this.tasks.filter((task) => {
+      return (task.id !== taskId) ? task : null;
+    })
+  }
+  // constructor(private modalService: NgbModal) {}
+
+  //   openVerticallyCentered(content: any) {
+  // 		this.modalService.open(content, { centered: true });
+  // 	}
+
 }
