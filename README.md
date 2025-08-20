@@ -1,27 +1,65 @@
-# ToDoApp
+# 👋 Hi, I'm Om Siddhapura
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+A passionate and results-driven **Full Stack Software Engineer** with a Master's in Applied Computing and 2 years of professional experience building scalable, high-performance applications. I thrive on transforming complex problems into elegant, efficient, and user-centric software solutions.
 
-## Development server
+**📍 Windsor, Ontario, Canada**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+### 🛠️ Technical Skills
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+*   **Languages:** Java, Python, JavaScript, TypeScript, SQL, C/C++, HTML, CSS
+*   **Frontend:** React, Angular, React Native
+*   **Backend:** Spring Boot, .NET Core Web API, Node.js, RESTful APIs, Microservices
+*   **Databases:** PostgreSQL, MySQL, MSSQL, MongoDB, Firebase
+*   **Cloud & DevOps:** Jenkins CI/CD, Git, GitHub, Linux/Unix
+*   **Data Analysis:** Pandas, NumPy, Matplotlib, R, ETL Processes
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 💼 Professional Experience
 
-## Running unit tests
+**Programmer Analyst** @ [Meditalo Inc](https://meditalo.com/) *(Ahmedabad, India)*
+*   Developed and maintained scalable SaaS-based healthcare applications using **Angular**, **React**, and **.NET Core Web API**.
+*   Engineered RESTful web services and microservices, reducing client latency by **77%**.
+*   Collaborated cross-functionally to translate business requirements into technical solutions for products like Dr Catalyst EHR.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Software Engineer Intern** @ [TatvaSoft](https://www.tatvasoft.com/) *(Ahmedabad, India)*
+*   Built and optimized features for a high-traffic e-commerce platform using **React** and **Spring Boot**.
+*   Contributed to backend microservice development, ensuring seamless data flow and secure payment processing.
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 🚀 Featured Projects
 
-## Further help
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **[Park Mate](https://github.com/Om15042002/ParkMate)** | A mobile app for real-time parking slot discovery and booking with AI-powered license plate recognition. | React Native, Python, Firebase, Microservices, CI/CD |
+| **[Student Performance Analytics Engine](https://github.com/Om15042002/Student-Performance-Analytics)** | A data warehouse system for analyzing student GPA data with ETL automation and visualization dashboards. | Python, SQL, PostgreSQL, API Design, Data Warehousing |
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+### 🎓 Education
+
+*   **Master of Applied Computing** - University of Windsor, Canada *(Jan 2025 - Present)*
+*   **Bachelor of Technology in Computer Engineering** - Birla Vishvakarma Mahavidyalaya, India
+
+### 🏆 Certifications & Awards
+
+*   **Best Industry Innovative Project Demo Award** – CS Demo Day, University of Windsor *(Apr 2025)*
+*   MongoDB Associate Developer Certificate *(Apr 2025)*
+*   GitHub Foundations Certificate *(Mar 2025)*
+*   Atlassian Agile Project Management Professional Certificate *(Feb 2025)*
+
+---
+
+### 📫 Let's Connect!
+
+*   **Email:** [siddhapo@uwindsor.ca](mailto:siddhapo@uwindsor.ca)
+*   **LinkedIn:** [linkedin.com/in/omsiddhapura](https://linkedin.com/in/omsiddhapura)
+*   **Portfolio:** [omsiddhapura-portfolio.netlify.app](https://omsiddhapura-portfolio.netlify.app/)
+
+---
+
+![Om's GitHub stats](https://github-readme-stats.vercel.app/api?username=Om15042002&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Om15042002&layout=compact&theme=radical)
